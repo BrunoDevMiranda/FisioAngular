@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Produtos - Barbearia Alura</title>
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+
+
+		<main>
+      <router-outlet></router-outlet>
+      <h1>
+        Pediátria
+
+        <a routerLink="pedi">Clique</a>
+      </h1>
+			<section class="principal">
+			<h2 class="titulo-principal">Tire suas dúvidas</h2>
+
+			<p>
+
+			</p>
+		</section>
+
+			<nav>
+			<ul class="produtos">
+				<li>
+					<h2>Pediátria</h2>
+					<a routerLink="pedi">
+					<img [src]="urlPedi" id="pedi"></a>
+				</li>
+
+
+
+				<li>
+					<h2>Neurofuncional</h2>
+					<a href="neuro.html">
+					<img [src]="urlNeuro" id="neuro"></a>
+
+				</li>
+				<li>
+					<h2>Geriátrica</h2>
+					<a href="geriatrica.html">
+					<img [src]="urlGeri" id="geri"></a>
+
+				</li>
+
+			</ul>
+			</nav>
+		</main>
+
+
+		<footer>
+		<img src="wave.svg">
+		<p>&copy; Copyright Bruno Miranda - 2022</p>
+		<p>Todos os direitos reservados</p>
+
+
+		</footer>
+	</body>
+
+
+</html>
+
+

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Produtos - Barbearia Alura</title>
+
+       
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    
+
+            <main>
+
+                <form>
+                 <label for="nome">Nome e sobrenome</label>
+                 <input type="text" id="nome" class="input-padrao" required>
+                 <label for="email">Email</label>
+                 <input type="email" id="email" class="input-padrao" required placeholder="Ex: seuemail@gmail.com">
+                <label for="telefone">Telefone</label>
+                <input tel="telefone" id="telefone" class="input-padrao" required placeholder="(DD) XXXXX-XXXX">
+                <label for="Mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="Mensagem" class="input-padrao" required placeholder="Mensagem..."></textarea>
+
+                   <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                           <label for="radio-email">
+                           <input type="radio" name="contato" value="email" id="radio-email">Email
+&#64;
+                           </label>
+ 
+                    <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone 
+&#9742;
+                    </label>
+
+                    <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp &#128242;
+                    </label>
+                    
+                    </fieldset>
+                                        
+
+                    <fieldset>
+                     <legend>Qual horário prefere ser atendido?</legend>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                    </fieldset>
+
+                    <label class="checkbox"><input type="checkbox"checked>
+                                            Gostaria de receber nossas novidades por email?
+                    </label>
+
+                    <input type="submit" class="enviar">
+                </form>
+            
+   
+
+                     <p id="marca">Dias  e horários de Atendimentos :</p>
+
+                     <table>
+                        <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                            <th>Profissional</th>
+                            <th>CREFITO</th>
+
+                        </tr>
+                        </thead> 
+
+                      <tbody>
+                         <tr>
+                            <td>Segunda</td>
+                            <td>8h~20h</td>
+                            <td>Tainã Isse</td>
+                            <td>23-8963</td>
+                        </tr>
+
+                         <tr>
+                            <td>Terça</td>
+                            <td>9h~19h</td>
+                            <td>Tainã Isse</td>
+                            <td>23-8963</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h~20h</td>
+                            <td>Tainã Isse</td>
+                            <td>23-8963</td>
+                        </tr>
+
+                         <tr>
+                            <td>Quinta</td>
+                            <td>9h~21h</td>
+                            <td>Romulo Dias</td>
+                            <td>41-2981</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h~20h</td>
+                            <td>Romulo Dias</td>
+                            <td>41-2981</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="5">Local: Rio de Janeiro e Duque de Caxias</td>
+                        </tr>
+                      </tbody>
+
+
+                     </table>
+                
+
+            </main>
+
+            <footer>       
+              
+
+        <p><img src="wave.svg">&copy; Copyright Bruno Miranda - 2022</p>
+        <p>Todos os direitos reservados</p>
+    
+            </footer>
+ </body>
+        </html>
